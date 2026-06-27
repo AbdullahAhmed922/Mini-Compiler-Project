@@ -1,0 +1,11 @@
+# Compiled executable files
+*.exe
+*.o
+*.obj
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Agent/AI generated artifacts
+implementation_plan.md

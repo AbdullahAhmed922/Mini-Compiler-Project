@@ -1,0 +1,45 @@
+// Sample program for the Mini Compiler
+// This tests all supported language features
+
+// Variable declarations
+int x;
+int y;
+float pi;
+string msg;
+
+// Assignments
+x = 10;
+y = 20;
+pi = 3.14;
+msg = "Hello World";
+
+// Arithmetic expression
+int sum;
+sum = x + y;
+
+// Print statement
+print(sum);
+print(msg);
+
+// If-else statement
+if (sum > 25) {
+    print(sum);
+} else {
+    print(0);
+}
+
+// Nested expression
+int result;
+result = (x + y) * 2 - 5;
+print(result);
+
+// While loop
+while (x > 0) {
+    x = x - 1;
+}
+print(x);
+
+// Logical expressions
+int flag;
+flag = (x == 0) && (y > 10);
+print(flag);
